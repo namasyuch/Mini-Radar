@@ -76,3 +76,6 @@ The next part of the project is to use the serial data from the Arduino to creat
 ## What I Learned
 
 This project helped me understand servo control, ultrasonic distance measurement and serial communication between an Arduino and a computer.
+
+Circuit Diagram : <img width="1408" height="768" alt="watermarked_img_3532796263284387211" src="https://github.com/user-attachments/assets/de14797c-f698-440e-a554-626239bc0332" />
+
