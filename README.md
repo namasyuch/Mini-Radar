@@ -1,0 +1,78 @@
+# Mini Radar
+
+Mini Radar is an Arduino project that uses an ultrasonic sensor mounted on a servo motor to scan for nearby objects.
+
+The Arduino measures the distance while the servo moves the sensor through different angles. The angle and distance values are sent to a laptop through serial communication.
+
+## Current Progress
+
+* Servo scanning works
+* HC-SR04 distance measurement works
+* Angle and distance values are visible through Serial Monitor
+* Laptop radar visualization is planned as the next step
+
+## Components
+
+* Arduino Nano
+* HC-SR04 ultrasonic sensor
+* SG90/MG90 servo motor
+* Jumper wires
+* USB cable
+* Laptop
+
+## Connections
+
+### HC-SR04
+
+| HC-SR04 | Arduino Nano |
+| ------- | ------------ |
+| VCC     | 5V           |
+| GND     | GND          |
+| TRIG    | D7           |
+| ECHO    | D6           |
+
+### Servo
+
+| Servo  | Arduino Nano |
+| ------ | ------------ |
+| Signal | D9           |
+| VCC    | 5V           |
+| GND    | GND          |
+
+## How It Works
+
+The servo rotates the ultrasonic sensor from one side to the other.
+
+The HC-SR04 sends an ultrasonic pulse and measures how long it takes for the echo to return. The Arduino converts this into an approximate distance.
+
+The Arduino then sends the angle and distance through serial communication at 9600 baud.
+
+Example:
+
+```text
+180,42
+179,41
+178,40
+177,38
+```
+
+The first value is the servo angle and the second value is the distance in centimetres.
+
+## Software
+
+The Arduino code is written in C++ using the Arduino IDE.
+
+The laptop visualization will be made using Processing in the next stage of the project.
+
+## Files
+
+* `mini_radar.ino` — Arduino code for the servo and ultrasonic sensor
+* `radar_visualization.pde` — laptop visualization for the next stage
+
+## Next Step
+
+The next part of the project is to use the serial data from the Arduino to create a real-time radar display on the laptop.
+
+## What I Learned
+
+This project helped me understand servo control, ultrasonic distance measurement and serial communication between an Arduino and a computer.
