@@ -20,6 +20,17 @@ The Arduino measures the distance while the servo moves the sensor through diffe
 * USB cable
 * Laptop
 
+## Assembly
+1. Place the arduyino nano ion the breadboard.
+2. Connect the HC-SR04 Ultrasonic sensor to ther Arduino Nano.
+3. Connect the SG90 Servo Motor to the Arduino Nano.
+4. Mount the HC-SR04 on top of the SG90 (Ultrasonic Sensor on Servo Motor).
+5. Connect the Arduino Nano to the laptop using the USB cable.
+6. Upload 'mini_radar.ino' using the Arduino IDE.
+7. Open 'radar_isulization.pde' in Processing.
+8. Run the Processing Sketch to display the radar.
+
+
 ## Connections
 
 ### HC-SR04
