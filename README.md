@@ -19,6 +19,7 @@ The Arduino measures the distance while the servo moves the sensor through diffe
 * Jumper wires
 * USB cable
 * Laptop
+* Ultrasonic Sensor mount 
 
 ## Assembly
 
