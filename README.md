@@ -51,14 +51,6 @@ The Arduino measures the distance while the servo moves the sensor through diffe
 | VCC    | 5V           |
 | GND    | GND          |
 
-## Hardware Design
-
-[Mini Radar Mount STL](cad/mini_radar_mount.stl)
-
-[Mini Radar Mount STEP](cad/mini_radar_mount.step)
-
-[Mini Radar Mount FreeCAD Source](cad/mini_radar_mount.FCStd)
-
 ## How It Works
 
 The servo rotates the ultrasonic sensor from one side to the other.
