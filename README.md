@@ -73,16 +73,12 @@ The first value is the servo angle and the second value is the distance in centi
 
 The Arduino code is written in C++ using the Arduino IDE.
 
-The laptop visualization will be made using Processing in the next stage of the project.
+The Laptop Radar Visualisation is working.
 
 ## Files
 
 * `mini_radar.ino` — Arduino code for the servo and ultrasonic sensor
 * `radar_visualization.pde` — laptop visualization for the next stage
-
-## Next Step
-
-The next part of the project is to use the serial data from the Arduino to create a real-time radar display on the laptop.
 
 ## Finished Build
 
