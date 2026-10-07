@@ -85,9 +85,9 @@ The Laptop Radar Visualisation is working.
 
 ![Mini Radar Finished Build](VideoCapture_20261007-170203.jpg)
 
-## Circuit Diagram 
+## Circuit Diagram
 
-Circuit Diagram : <img width="1408" height="768" alt="watermarked_img_3532796263284387211" src="https://github.com/user-attachments/assets/de14797c-f698-440e-a554-626239bc0332" />
+![Mini Radar Circuit Diagram](WIN_20261007_17_52_25_Pro.jpg)
 
 ## Working Demo
 
