@@ -88,13 +88,13 @@ The next part of the project is to use the serial data from the Arduino to creat
 
 ![Mini Radar Finished Build](VideoCapture_20261007-170203.jpg)
 
-## Working Demo
-
-[Watch the Mini Radar working](20260930_213449.mp4)
-
 ## Circuit Diagram 
 
 Circuit Diagram : <img width="1408" height="768" alt="watermarked_img_3532796263284387211" src="https://github.com/user-attachments/assets/de14797c-f698-440e-a554-626239bc0332" />
+
+## Working Demo
+
+[Watch the Mini Radar working](20260930_213449.mp4)
 
 ## What I Learned
 
