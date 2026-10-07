@@ -84,6 +84,10 @@ The laptop visualization will be made using Processing in the next stage of the 
 
 The next part of the project is to use the serial data from the Arduino to create a real-time radar display on the laptop.
 
+## Finished Build
+
+![Mini Radar Finished Build](VideoCapture_20261007-170203.jpg)
+
 ## What I Learned
 
 This project helped me understand servo control, ultrasonic distance measurement and serial communication between an Arduino and a computer.
