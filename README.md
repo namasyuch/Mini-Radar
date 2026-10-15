@@ -45,7 +45,7 @@ The Arduino measures distance at different angles and sends the angle and distan
 
 ## Circuit Diagram
 
-![Mini Radar Circuit Diagram](circuit_image (2).png)
+![Mini Radar Circuit Diagram](circuit_image%20%282%29.png)
 
 [Open the editable circuit in Cirkit Designer](https://app.cirkitdesigner.com/project/3f4ae7ae-e22a-4c27-bb59-d948dd57e46b)
 
