@@ -79,6 +79,13 @@ The first value represents the servo angle in degrees, and the second represents
 - `mini_radar.ino` — Arduino code for the servo and ultrasonic sensor
 - `radar_visualization.pde` — Processing radar visualization
 
+## Project Files
+
+| File | Description |
+|---|---|
+| `mini_radar.ino` | Arduino Nano code for servo scanning, ultrasonic distance measurement, and sending angle and distance data over Serial. |
+| `radar_visualization.pde` | Processing sketch that receives the serial data and displays the radar visualization on the laptop. |
+
 ## Project Photos
 
 ![Mini Radar Finished Build](VideoCapture_20261007-170203.jpg)
