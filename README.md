@@ -58,8 +58,55 @@ The Arduino measures distance at different angles and sends the angle and distan
 
 Example serial output:
 
-```text
+\`\`\`text
 180,42
 179,41
 178,40
 177,38
+\`\`\`
+
+The first value represents the servo angle in degrees, and the second represents distance in centimetres.
+
+## Software
+
+- Arduino IDE — Arduino sketch
+- Processing — laptop radar visualization
+
+## Project Files
+
+| File | Description |
+|---|---|
+| `mini_radar.ino` | Arduino Nano code for servo scanning, ultrasonic distance measurement, and serial communication. |
+| `radar_visualization.pde` | Processing sketch that receives serial data and displays the radar visualization. |
+
+## CAD Design
+
+The Mini Radar enclosure and component layout are being documented using Onshape.
+
+### CAD Assembly Preview
+
+![Mini Radar CAD Assembly](Mini_Radar_CAD_Assembly.png)
+
+### Enclosure File
+
+Add the link to your existing enclosure STL here once you confirm its exact filename and folder.
+
+The assembly uses simplified component placeholders to illustrate the intended layout. Physical dimensions, mounting points, and fit have not yet been verified against the actual hardware.
+
+## Project Photos
+
+![Mini Radar Finished Build](VideoCapture_20261007-170203.jpg)
+
+## Working Demo
+
+[Watch the Mini Radar working](20260930_213449.mp4)
+
+## What I Learned
+
+This project helped me understand servo control, ultrasonic distance measurement, and serial communication between an Arduino and a computer. I also learned how to visualize sensor readings using Processing and how to represent electronic components in a CAD assembly.
+
+## Next Steps
+
+- Review the sensor mount and enclosure.
+- Verify component placement against the actual hardware.
+- Test the assembled design and capture updated progress photos.
