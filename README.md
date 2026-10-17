@@ -10,6 +10,7 @@ The Arduino measures distance at different angles and sends the angle and distan
 - HC-SR04 distance measurement works
 - Angle and distance values are sent through serial communication
 - Laptop radar visualization works
+- CAD component assembly created in Onshape
 
 ## Components
 
@@ -45,8 +46,6 @@ The Arduino measures distance at different angles and sends the angle and distan
 
 ## Circuit Diagram
 
-![Mini Radar Circuit Diagram](circuit_image%20%282%29.png)
-
 [Open the editable circuit in Cirkit Designer](https://app.cirkitdesigner.com/project/3f4ae7ae-e22a-4c27-bb59-d948dd57e46b)
 
 ## How It Works
@@ -64,37 +63,3 @@ Example serial output:
 179,41
 178,40
 177,38
-```
-
-The first value represents the servo angle in degrees, and the second represents distance in centimetres.
-
-## Software
-
-- Arduino IDE — Arduino sketch
-- Processing — laptop radar visualization
-- MD? No additional library names are listed here because the actual sketch determines the required libraries.
-
-## Project Files
-
-| File | Description |
-|---|---|
-| `mini_radar.ino` | Arduino Nano code for servo scanning, ultrasonic distance measurement, and sending angle and distance data over Serial. |
-| `radar_visualization.pde` | Processing sketch that receives the serial data and displays the radar visualization on the laptop. |
-
-## Project Photos
-
-![Mini Radar Finished Build](VideoCapture_20261007-170203.jpg)
-
-## Working Demo
-
-[Watch the Mini Radar working](20260930_213449.mp4)
-
-## What I Learned
-
-This project helped me understand servo control, ultrasonic distance measurement, and serial communication between an Arduino and a computer. I also learned how to visualize sensor readings using Processing.
-
-## Next Steps
-
-- Review and improve the sensor mount and enclosure.
-- Document the component assembly.
-- Test the radar and capture updated progress photos.
