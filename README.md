@@ -83,9 +83,9 @@ The first value represents the servo angle in degrees, and the second represents
 
 The Mini Radar enclosure and component layout are being documented using Onshape.
 
-### CAD Assembly Preview
+#### CAD Assembly Preview
 
-![Mini Radar CAD Assembly](Mini_Radar_CAD_Assembly.png)
+![Mini Radar CAD Assembly](Screenshot%202026-10-17%20161544.png)
 
 ### Enclosure File
 
